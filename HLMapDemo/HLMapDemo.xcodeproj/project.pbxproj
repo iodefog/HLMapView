@@ -15,11 +15,11 @@
 		4FD6C7971A777E090068AC89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD6C7951A777E090068AC89 /* LaunchScreen.xib */; };
 		4FD6C7A31A777E090068AC89 /* HLMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C7A21A777E090068AC89 /* HLMapDemoTests.m */; };
 		4FD6C7B21A777F1C0068AC89 /* HLMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C7B11A777F1C0068AC89 /* HLMapView.m */; };
-		4FD6C7B81A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B31A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a */; };
-		4FD6C7B91A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B41A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a */; };
-		4FD6C7BA1A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B51A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */; };
-		4FD6C7BB1A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B61A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a */; };
-		4FD6C7BC1A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B71A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a */; };
+		4FD6C7C31A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7BE1A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a */; };
+		4FD6C7C41A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7BF1A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a */; };
+		4FD6C7C51A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C01A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */; };
+		4FD6C7C61A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C11A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a */; };
+		4FD6C7C71A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +48,11 @@
 		4FD6C7A21A777E090068AC89 /* HLMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMapDemoTests.m; sourceTree = "<group>"; };
 		4FD6C7B01A777F1C0068AC89 /* HLMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMapView.h; sourceTree = "<group>"; };
 		4FD6C7B11A777F1C0068AC89 /* HLMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMapView.m; sourceTree = "<group>"; };
-		4FD6C7B31A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_sys_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7B41A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7B51A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_player_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7B61A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtopus_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7B71A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtspeex_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7BE1A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_sys_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7BF1A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7C01A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_player_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7C11A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtopus_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtspeex_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD6C7BA1A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */,
-				4FD6C7B81A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */,
-				4FD6C7BC1A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */,
-				4FD6C7B91A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a in Frameworks */,
-				4FD6C7BB1A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7C51A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7C31A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7C71A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7C41A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7C61A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,16 +141,24 @@
 		4FD6C7AF1A777F1C0068AC89 /* HLMapView */ = {
 			isa = PBXGroup;
 			children = (
-				4FD6C7B31A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a */,
-				4FD6C7B41A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a */,
-				4FD6C7B51A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */,
-				4FD6C7B61A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a */,
-				4FD6C7B71A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a */,
+				4FD6C7BD1A7780350068AC89 /* libs */,
 				4FD6C7B01A777F1C0068AC89 /* HLMapView.h */,
 				4FD6C7B11A777F1C0068AC89 /* HLMapView.m */,
 			);
 			name = HLMapView;
 			path = ../../HLMapView;
+			sourceTree = "<group>";
+		};
+		4FD6C7BD1A7780350068AC89 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6C7BE1A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a */,
+				4FD6C7BF1A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a */,
+				4FD6C7C01A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */,
+				4FD6C7C11A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a */,
+				4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +391,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView,
+					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView/libs,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -397,6 +406,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView,
+					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView/libs,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
