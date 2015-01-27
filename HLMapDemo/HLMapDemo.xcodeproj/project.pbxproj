@@ -14,7 +14,12 @@
 		4FD6C7941A777E090068AC89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD6C7931A777E090068AC89 /* Images.xcassets */; };
 		4FD6C7971A777E090068AC89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD6C7951A777E090068AC89 /* LaunchScreen.xib */; };
 		4FD6C7A31A777E090068AC89 /* HLMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C7A21A777E090068AC89 /* HLMapDemoTests.m */; };
-		4FD6C7AE1A777E2F0068AC89 /* HLMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C7AD1A777E2F0068AC89 /* HLMapView.m */; };
+		4FD6C7B21A777F1C0068AC89 /* HLMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C7B11A777F1C0068AC89 /* HLMapView.m */; };
+		4FD6C7B81A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B31A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a */; };
+		4FD6C7B91A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B41A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a */; };
+		4FD6C7BA1A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B51A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */; };
+		4FD6C7BB1A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B61A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a */; };
+		4FD6C7BC1A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7B71A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +46,13 @@
 		4FD6C79C1A777E090068AC89 /* HLMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD6C7A11A777E090068AC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FD6C7A21A777E090068AC89 /* HLMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMapDemoTests.m; sourceTree = "<group>"; };
-		4FD6C7AC1A777E2F0068AC89 /* HLMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLMapView.h; path = ../../HLMapView/HLMapView.h; sourceTree = "<group>"; };
-		4FD6C7AD1A777E2F0068AC89 /* HLMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLMapView.m; path = ../../HLMapView/HLMapView.m; sourceTree = "<group>"; };
+		4FD6C7B01A777F1C0068AC89 /* HLMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMapView.h; sourceTree = "<group>"; };
+		4FD6C7B11A777F1C0068AC89 /* HLMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMapView.m; sourceTree = "<group>"; };
+		4FD6C7B31A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_sys_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7B41A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7B51A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_player_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7B61A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtopus_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7B71A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtspeex_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD6C7BA1A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7B81A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7BC1A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7B91A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a in Frameworks */,
+				4FD6C7BB1A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +103,7 @@
 				4FD6C78B1A777E090068AC89 /* AppDelegate.m */,
 				4FD6C78D1A777E090068AC89 /* ViewController.h */,
 				4FD6C78E1A777E090068AC89 /* ViewController.m */,
-				4FD6C7AC1A777E2F0068AC89 /* HLMapView.h */,
-				4FD6C7AD1A777E2F0068AC89 /* HLMapView.m */,
+				4FD6C7AF1A777F1C0068AC89 /* HLMapView */,
 				4FD6C7901A777E090068AC89 /* Main.storyboard */,
 				4FD6C7931A777E090068AC89 /* Images.xcassets */,
 				4FD6C7951A777E090068AC89 /* LaunchScreen.xib */,
@@ -122,6 +136,21 @@
 				4FD6C7A11A777E090068AC89 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FD6C7AF1A777F1C0068AC89 /* HLMapView */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6C7B31A777F4E0068AC89 /* libhci_sys_device_simulator_iOS4.3.a */,
+				4FD6C7B41A777F4E0068AC89 /* libhci_tts_device_simulator_iOS4.3.a */,
+				4FD6C7B51A777F4E0068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */,
+				4FD6C7B61A777F4E0068AC89 /* libjtopus_device_simulator_iOS4.3.a */,
+				4FD6C7B71A777F4E0068AC89 /* libjtspeex_device_simulator_iOS4.3.a */,
+				4FD6C7B01A777F1C0068AC89 /* HLMapView.h */,
+				4FD6C7B11A777F1C0068AC89 /* HLMapView.m */,
+			);
+			name = HLMapView;
+			path = ../../HLMapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +256,7 @@
 				4FD6C78F1A777E090068AC89 /* ViewController.m in Sources */,
 				4FD6C78C1A777E090068AC89 /* AppDelegate.m in Sources */,
 				4FD6C7891A777E090068AC89 /* main.m in Sources */,
-				4FD6C7AE1A777E2F0068AC89 /* HLMapView.m in Sources */,
+				4FD6C7B21A777F1C0068AC89 /* HLMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +380,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HLMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,6 +394,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HLMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
