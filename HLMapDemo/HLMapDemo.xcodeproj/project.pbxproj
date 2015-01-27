@@ -20,6 +20,7 @@
 		4FD6C7C51A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C01A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */; };
 		4FD6C7C61A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C11A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a */; };
 		4FD6C7C71A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */; };
+		4FD6C7CA1A7795850068AC89 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C91A7795850068AC89 /* GoogleMaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4FD6C7C01A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_player_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
 		4FD6C7C11A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtopus_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
 		4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtspeex_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
+		4FD6C7C91A7795850068AC89 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD6C7CA1A7795850068AC89 /* GoogleMaps.framework in Frameworks */,
 				4FD6C7C51A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */,
 				4FD6C7C31A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */,
 				4FD6C7C71A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */,
@@ -141,6 +144,7 @@
 		4FD6C7AF1A777F1C0068AC89 /* HLMapView */ = {
 			isa = PBXGroup;
 			children = (
+				4FD6C7C81A7795850068AC89 /* frameWork */,
 				4FD6C7BD1A7780350068AC89 /* libs */,
 				4FD6C7B01A777F1C0068AC89 /* HLMapView.h */,
 				4FD6C7B11A777F1C0068AC89 /* HLMapView.m */,
@@ -159,6 +163,14 @@
 				4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */,
 			);
 			path = libs;
+			sourceTree = "<group>";
+		};
+		4FD6C7C81A7795850068AC89 /* frameWork */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6C7C91A7795850068AC89 /* GoogleMaps.framework */,
+			);
+			path = frameWork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +398,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView/frameWork,
+				);
 				INFOPLIST_FILE = HLMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -401,6 +417,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView/frameWork,
+				);
 				INFOPLIST_FILE = HLMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
