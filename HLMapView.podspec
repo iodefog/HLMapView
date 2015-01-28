@@ -89,8 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HLMapView/*", "HLMapView/libs/*" 
-  # "HLMapView/frameWork/*"
+  s.source_files  = "HLMapView/*", "HLMapView/libs/*" , "HLMapView/frameWork/*.framework"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -116,7 +115,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-   s.framework  = "GoogleMaps"
+  # s.framework  = "GoogleMaps"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
