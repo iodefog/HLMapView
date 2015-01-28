@@ -117,7 +117,8 @@ Pod::Spec.new do |s|
   #
 
     s.preserve_paths = "GoogleMaps.framework"
-    s.framework  = "GoogleMaps"
+    s.library = "GoogleMaps"  
+#  s.framework  = "GoogleMaps"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
