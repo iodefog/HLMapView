@@ -135,7 +135,8 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
- #  s.dependency "AMap3DMap" 
+   s.dependency "AMap3DMap"
+   s.dependency "googleMapSDK",  :git => "https://github.com/lihongli528628/googleMapSDK.git"
  # s.dependency "BaiduMapSDK"
  #  s.dependency "Google-Maps-iOS-SDK"
 end
