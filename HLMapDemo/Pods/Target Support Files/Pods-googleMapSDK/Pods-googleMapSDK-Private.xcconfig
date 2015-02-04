@@ -1,0 +1,6 @@
+#include "Pods-googleMapSDK.xcconfig"
+FRAMEWORK_SEARCH_PATHS = ${PODS_GOOGLEMAPSDK_FRAMEWORK_SEARCH_PATHS}
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/googleMapSDK" "${PODS_ROOT}/Headers/Private/googleMapSDK/GoogleMaps" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AMap3DMap" "${PODS_ROOT}/Headers/Public/googleMapSDK" "${PODS_ROOT}/Headers/Public/googleMapSDK/GoogleMaps"
+OTHER_LDFLAGS = ${PODS_GOOGLEMAPSDK_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}

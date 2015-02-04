@@ -1,0 +1,1 @@
+../../../../googleMapSDK/GoogleMaps.framework/Versions/A/Headers/GMSPanoramaLink.h

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073E5E1E7486D486B36DAEDC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFB009E4A2BCF99827C1327 /* libPods.a */; };
 		4FD6C7891A777E090068AC89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C7881A777E090068AC89 /* main.m */; };
 		4FD6C78C1A777E090068AC89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C78B1A777E090068AC89 /* AppDelegate.m */; };
 		4FD6C78F1A777E090068AC89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C78E1A777E090068AC89 /* ViewController.m */; };
@@ -15,12 +16,6 @@
 		4FD6C7971A777E090068AC89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FD6C7951A777E090068AC89 /* LaunchScreen.xib */; };
 		4FD6C7A31A777E090068AC89 /* HLMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C7A21A777E090068AC89 /* HLMapDemoTests.m */; };
 		4FD6C7B21A777F1C0068AC89 /* HLMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6C7B11A777F1C0068AC89 /* HLMapView.m */; };
-		4FD6C7C31A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7BE1A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a */; };
-		4FD6C7C41A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7BF1A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a */; };
-		4FD6C7C51A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C01A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */; };
-		4FD6C7C61A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C11A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a */; };
-		4FD6C7C71A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */; };
-		4FD6C7CA1A7795850068AC89 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6C7C91A7795850068AC89 /* GoogleMaps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F86D2D9F4453D550ED865DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4FD6C7831A777E090068AC89 /* HLMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD6C7871A777E090068AC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FD6C7881A777E090068AC89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,12 +45,8 @@
 		4FD6C7A21A777E090068AC89 /* HLMapDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLMapDemoTests.m; sourceTree = "<group>"; };
 		4FD6C7B01A777F1C0068AC89 /* HLMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMapView.h; sourceTree = "<group>"; };
 		4FD6C7B11A777F1C0068AC89 /* HLMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMapView.m; sourceTree = "<group>"; };
-		4FD6C7BE1A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_sys_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7BF1A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7C01A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libhci_tts_player_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7C11A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtopus_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjtspeex_device_simulator_iOS4.3.a; sourceTree = "<group>"; };
-		4FD6C7C91A7795850068AC89 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		AF3DBD8CA75727120607E0AC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFB009E4A2BCF99827C1327 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD6C7CA1A7795850068AC89 /* GoogleMaps.framework in Frameworks */,
-				4FD6C7C51A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a in Frameworks */,
-				4FD6C7C31A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a in Frameworks */,
-				4FD6C7C71A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a in Frameworks */,
-				4FD6C7C41A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a in Frameworks */,
-				4FD6C7C61A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a in Frameworks */,
+				073E5E1E7486D486B36DAEDC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +74,8 @@
 				4FD6C7851A777E090068AC89 /* HLMapDemo */,
 				4FD6C79F1A777E090068AC89 /* HLMapDemoTests */,
 				4FD6C7841A777E090068AC89 /* Products */,
+				B7186744CF6F5607353AC571 /* Pods */,
+				BB1825011AE86972A47AC98F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,8 +133,6 @@
 		4FD6C7AF1A777F1C0068AC89 /* HLMapView */ = {
 			isa = PBXGroup;
 			children = (
-				4FD6C7C81A7795850068AC89 /* frameWork */,
-				4FD6C7BD1A7780350068AC89 /* libs */,
 				4FD6C7B01A777F1C0068AC89 /* HLMapView.h */,
 				4FD6C7B11A777F1C0068AC89 /* HLMapView.m */,
 			);
@@ -153,24 +140,21 @@
 			path = ../../HLMapView;
 			sourceTree = "<group>";
 		};
-		4FD6C7BD1A7780350068AC89 /* libs */ = {
+		B7186744CF6F5607353AC571 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4FD6C7BE1A7780350068AC89 /* libhci_sys_device_simulator_iOS4.3.a */,
-				4FD6C7BF1A7780350068AC89 /* libhci_tts_device_simulator_iOS4.3.a */,
-				4FD6C7C01A7780350068AC89 /* libhci_tts_player_device_simulator_iOS4.3.a */,
-				4FD6C7C11A7780350068AC89 /* libjtopus_device_simulator_iOS4.3.a */,
-				4FD6C7C21A7780350068AC89 /* libjtspeex_device_simulator_iOS4.3.a */,
+				AF3DBD8CA75727120607E0AC /* Pods.debug.xcconfig */,
+				0F86D2D9F4453D550ED865DD /* Pods.release.xcconfig */,
 			);
-			path = libs;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		4FD6C7C81A7795850068AC89 /* frameWork */ = {
+		BB1825011AE86972A47AC98F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4FD6C7C91A7795850068AC89 /* GoogleMaps.framework */,
+				CAFB009E4A2BCF99827C1327 /* libPods.a */,
 			);
-			path = frameWork;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FD6C7A61A777E090068AC89 /* Build configuration list for PBXNativeTarget "HLMapDemo" */;
 			buildPhases = (
+				0C103ED2A5FBB5F10E2D42EB /* Check Pods Manifest.lock */,
 				4FD6C77F1A777E090068AC89 /* Sources */,
 				4FD6C7801A777E090068AC89 /* Frameworks */,
 				4FD6C7811A777E090068AC89 /* Resources */,
+				22FC79A61D76E5CCDB16F5E4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +254,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C103ED2A5FBB5F10E2D42EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22FC79A61D76E5CCDB16F5E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FD6C77F1A777E090068AC89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -352,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -387,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -396,6 +415,7 @@
 		};
 		4FD6C7A71A777E090068AC89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3DBD8CA75727120607E0AC /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -410,11 +430,13 @@
 					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView/libs,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "248147f0-2245-4c7c-948e-32dc35e73fbe";
 			};
 			name = Debug;
 		};
 		4FD6C7A81A777E090068AC89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F86D2D9F4453D550ED865DD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -429,6 +451,7 @@
 					/Users/LiHongli/Documents/Codings/Demo/HLMapView/HLMapView/libs,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "248147f0-2245-4c7c-948e-32dc35e73fbe";
 			};
 			name = Release;
 		};
@@ -485,6 +508,7 @@
 				4FD6C7A81A777E090068AC89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD6C7A91A777E090068AC89 /* Build configuration list for PBXNativeTarget "HLMapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +517,7 @@
 				4FD6C7AB1A777E090068AC89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

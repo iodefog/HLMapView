@@ -7,7 +7,8 @@
 //
 
 #import "HLMapView.h"
-
+#import <MapKit/MapKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 @implementation HLMapView
 
 /*

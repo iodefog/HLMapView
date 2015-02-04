@@ -1,0 +1,24 @@
+PODS:
+  - AMap3DMap (2.4.2)
+  - googleMapSDK (0.0.1):
+    - googleMapSDK/GoogleMapView (= 0.0.1)
+  - googleMapSDK/GoogleMapView (0.0.1)
+
+DEPENDENCIES:
+  - AMap3DMap
+  - googleMapSDK (from `https://github.com/lihongli528628/googleMapSDK.git`)
+
+EXTERNAL SOURCES:
+  googleMapSDK:
+    :git: https://github.com/lihongli528628/googleMapSDK.git
+
+CHECKOUT OPTIONS:
+  googleMapSDK:
+    :commit: 3a8fe16d41d8a5cfa64d66c281032151ed797148
+    :git: https://github.com/lihongli528628/googleMapSDK.git
+
+SPEC CHECKSUMS:
+  AMap3DMap: 16d8985fb67c4995eae3f41fe4e35ca26a4651ea
+  googleMapSDK: 5d1f057755a75a516849b8562fb077682f4432ee
+
+COCOAPODS: 0.36.0.beta.1
