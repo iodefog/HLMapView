@@ -89,8 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HLMapView/*", "HLMapView/libs/*" 
-# "HLMapView/frameWork/*.framework"
+  s.source_files  = "HLMapView/*" 
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -116,8 +115,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-    s.preserve_paths = "GoogleMaps.framework"
-    s.library = "GoogleMaps"  
+   # s.preserve_paths = "GoogleMaps.framework"
+   # s.library = "GoogleMaps"  
 #  s.framework  = "GoogleMaps"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
@@ -135,8 +134,9 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-   s.dependency "AMap3DMap"
-   s.dependency "googleMapSDK",  :git => "https://github.com/lihongli528628/googleMapSDK.git"
+  # s.dependency "AMap3DMap"
+  # s.dependency "googleMapSDK"
+  # s.dependency "googleMapSDK", :git => "https://github.com/lihongli528628/googleMapSDK.git"
  # s.dependency "BaiduMapSDK"
  #  s.dependency "Google-Maps-iOS-SDK"
 end
